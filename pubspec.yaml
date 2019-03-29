@@ -1,0 +1,5 @@
+name: KeyUpdateTool
+version: 0.0.1
+
+dependencies:
+  pointycastle: ^1.0.1
