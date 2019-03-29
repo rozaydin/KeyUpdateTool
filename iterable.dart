@@ -1,10 +1,12 @@
 import 'dart:core';
-import 'dart:io';
+import "package:pointycastle/pointycastle.dart";
 
 printMenu() {
   print("1. Update key");
   print("2. Exit");
 }
+
+
 
 void main() {
   const String version = "v0.1";
@@ -12,4 +14,12 @@ void main() {
   print("Key Rotate Tool $version");
   print("------------------------");
   printMenu();
+
+
+//  new RSAKeyGeneratorParameters(publicExponent, bitStrength, certainty)
+
+
+
+
+
 }
